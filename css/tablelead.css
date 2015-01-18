@@ -1,0 +1,32 @@
+@font-face
+{
+	font-family: 'ScBrFont';
+    src:url('fonts/FiraSans.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+#leveln{
+    height:70%;
+  top:20%;
+    position:absolute;
+    overflow-y:scroll;
+overflow-x:hidden;
+}
+#leveln table
+{
+      margin-left:27%;
+font-family:'ScBrFont';
+background:rgba(0,0,0,0.3);
+border-radius:8px;
+color:white;
+}
+td
+{
+padding:5px 80px 3px 80px;
+}
+th
+{
+padding:3px;
+font-size:34px;
+border-bottom:3px ridge black;
+}
